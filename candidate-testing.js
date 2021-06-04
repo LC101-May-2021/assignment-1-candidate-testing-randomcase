@@ -44,8 +44,11 @@ for (let i = 0; i < correctAnswers.length; i++)
 if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
 numOfCorrectA += 1}
 
-console.log(numOfCorrectA / numOfQuizQ * 100 + "%")
+let winWin = numOfCorrectA / numOfQuizQ * 100 + "%"
+console.log(winWin)
 
+
+ 
   let grade; 
   
 
