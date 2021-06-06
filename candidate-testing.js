@@ -44,11 +44,11 @@ for (let i = 0; i < correctAnswers.length; i++)
 if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
 numOfCorrectA += 1}
 
-let winWin = numOfCorrectA / numOfQuizQ * 100 
+let gradeQ = numOfCorrectA / numOfQuizQ * 100 
 
-if ((winWin) >= 80) console.log (`>>> Overall Grade: ${winWin}% (${numOfCorrectA} of ${numOfQuizQ} responses correct) <<<\n>>> Status: PASSED <<<`)
+if ((gradeQ) >= 80) console.log (`>>> Overall Grade: ${gradeQ}% (${numOfCorrectA} of ${numOfQuizQ} responses correct) <<<\n>>> Status: PASSED <<<`)
   else {
-    console.log(`>>> Overall Grade: ${winWin}% (${numOfCorrectA} of ${numOfQuizQ} responses correct) <<<\n>>> Status: FAILED <<<`)
+    console.log(`>>> Overall Grade: ${gradeQ}% (${numOfCorrectA} of ${numOfQuizQ} responses correct) <<<\n>>> Status: FAILED <<<`)
   }
 
 
