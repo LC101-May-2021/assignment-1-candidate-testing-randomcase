@@ -44,7 +44,7 @@ for (let i = 0; i < correctAnswers.length; i++)
 if (candidateAnswers[i].toLowerCase() === correctAnswers[i].toLowerCase()) {
 numOfCorrectA += 1}
 
-let gradeQ = numOfCorrectA / numOfQuizQ * 100 
+let gradeQ = numOfCorrectA / numOfQuizQ * 100
 
 if ((gradeQ) >= 80) console.log (`>>> Overall Grade: ${gradeQ}% (${numOfCorrectA} of ${numOfQuizQ} responses correct) <<<\n>>> Status: PASSED <<<`)
   else {
@@ -54,9 +54,9 @@ if ((gradeQ) >= 80) console.log (`>>> Overall Grade: ${gradeQ}% (${numOfCorrectA
 
 
  
-  let grade; 
+  let grade = numOfCorrectA / numOfQuizQ * 100; 
   
-
+ 
   return grade;
 }
 
